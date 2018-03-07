@@ -12,8 +12,8 @@ using namespace std;
 
 int main(int argc, char* argv[])
 {   
-	if(argc != 6) {cout << "Unexpected number of arguments: cityFile, heuristicFile, start, end, mode(G for greedy, A for A*) " << endl; return(1);}
-	string filename, start, end, hfile, mode;
+	if(argc != ) {cout << "Unexpected number of arguments: cityFile, heuristicFile, start, end" << endl; return(1);}
+	string filename, start, end, hfile;
 	filename = argv[1];
 	hfile = argv[2];
 	start = argv [3];
