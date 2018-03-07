@@ -12,7 +12,7 @@ using namespace std;
 
 int main(int argc, char* argv[])
 {   
-	if(argc != ) {cout << "Unexpected number of arguments: cityFile, heuristicFile, start, end" << endl; return(1);}
+	if(argc != 5) {cout << "Unexpected number of arguments: cityFile, heuristicFile, start, end" << endl; return(1);}
 	string filename, start, end, hfile;
 	filename = argv[1];
 	hfile = argv[2];
