@@ -1,5 +1,5 @@
 #include "Problem.h"
-
+//This is used for informed searching
 class heuristic{
 public:
 
