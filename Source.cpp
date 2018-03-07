@@ -18,7 +18,6 @@ int main(int argc, char* argv[])
 	hfile = argv[2];
 	start = argv [3];
 	end = argv[4];
-	gMODE = argv[5];
 	Problem p;
 	heuristic h;
 	h.init(hfile);

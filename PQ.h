@@ -18,6 +18,7 @@ typedef std::multiset<Node*,InsertCompare> PriorityQueue;
 // estimate how far we are from the goal, so we sort from low to high
 class InsertCompare {
 public:
+    std::string gMODE = "A";
     bool operator()(const Node* lhs, const Node* rhs) const {
         if ( gMODE == "G" || gMODE == "g") return lhs->hcost < rhs->hcost;
         else if (gMODE == "A" || gMODE == "a") return (lhs->hcost + lhs->pcost) < (rhs->hcost + rhs->pcost);
